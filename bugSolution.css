@@ -1,0 +1,19 @@
+/* bugSolution.css */
+.container {
+  width: 500px;
+  background-color: lightblue;  /* More specific selector */
+}
+
+.container p {
+  color: red; /* Even more specific */
+}
+
+/* Or use !important (use sparingly): */
+
+.container p {
+  color: green !important; 
+}
+
+#myElement { /* Another alternative solution */
+  color: blue;
+}
